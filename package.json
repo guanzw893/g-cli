@@ -1,0 +1,25 @@
+{
+  "name": "gzw-cli",
+  "version": "1.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "gzw-cli": "bin/index.js"
+  },
+  "type": "module",
+  "keywords": [
+    "cli"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "CLI tool to create projects based on templates",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "degit": "^2.8.4",
+    "inquirer": "^10.1.8",
+    "simple-git": "^3.25.0"
+  }
+}
